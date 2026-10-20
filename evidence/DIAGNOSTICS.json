@@ -1,0 +1,237 @@
+{
+  "block-1-fresh": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 0.009000000000000341,
+    "max_actual_origin_age_s": 0.009000000000000341,
+    "first_observed_contact_after_appearance_s": null,
+    "contact_observed_during_fault": false,
+    "contact_observed_after_restoration": false,
+    "stop_during_fault": true,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "33.048",
+        "action_type": "3",
+        "polygon": "FootprintApproach"
+      },
+      {
+        "t": "33.519",
+        "action_type": "0",
+        "polygon": ""
+      },
+      {
+        "t": "34.419",
+        "action_type": "3",
+        "polygon": "FootprintApproach"
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.15061602583290334,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-1-missing": {
+    "obstacle_window_message_count": 0,
+    "window_rate_hz": 0.0,
+    "max_advertised_age_s": null,
+    "max_actual_origin_age_s": null,
+    "first_observed_contact_after_appearance_s": 0.7349999999999994,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": true,
+    "stop_during_fault": true,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "30.648",
+        "action_type": "1",
+        "polygon": "invalid source"
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-1-frozen": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 2.006999999999998,
+    "max_actual_origin_age_s": 2.006999999999998,
+    "first_observed_contact_after_appearance_s": 0.6720000000000006,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": true,
+    "stop_during_fault": true,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "29.841",
+        "action_type": "1",
+        "polygon": "invalid source"
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-1-restamped": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 0.012000000000000455,
+    "max_actual_origin_age_s": 2.0070000000000014,
+    "first_observed_contact_after_appearance_s": 0.75,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": true,
+    "stop_during_fault": false,
+    "collision_state_changes_during_fault": [],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-2-missing": {
+    "obstacle_window_message_count": 0,
+    "window_rate_hz": 0.0,
+    "max_advertised_age_s": null,
+    "max_actual_origin_age_s": null,
+    "first_observed_contact_after_appearance_s": 0.8010000000000019,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": true,
+    "stop_during_fault": true,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "28.806",
+        "action_type": "1",
+        "polygon": "invalid source"
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-2-frozen-attempt-2": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 2.0070000000000014,
+    "max_actual_origin_age_s": 2.0070000000000014,
+    "first_observed_contact_after_appearance_s": 0.7530000000000001,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": true,
+    "stop_during_fault": true,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "30.843",
+        "action_type": "1",
+        "polygon": "invalid source"
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-2-restamped": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 0.012000000000000455,
+    "max_actual_origin_age_s": 2.006999999999998,
+    "first_observed_contact_after_appearance_s": 0.7140000000000022,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": true,
+    "stop_during_fault": false,
+    "collision_state_changes_during_fault": [],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-2-fresh": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 0.009000000000000341,
+    "max_actual_origin_age_s": 0.009000000000000341,
+    "first_observed_contact_after_appearance_s": null,
+    "contact_observed_during_fault": false,
+    "contact_observed_after_restoration": false,
+    "stop_during_fault": true,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "34.026",
+        "action_type": "3",
+        "polygon": "FootprintApproach"
+      },
+      {
+        "t": "34.275",
+        "action_type": "0",
+        "polygon": ""
+      },
+      {
+        "t": "34.347",
+        "action_type": "3",
+        "polygon": "FootprintApproach"
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.1298205599063481,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-3-frozen": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 2.0070000000000014,
+    "max_actual_origin_age_s": 2.0070000000000014,
+    "first_observed_contact_after_appearance_s": 0.7410000000000032,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": false,
+    "stop_during_fault": true,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "28.824",
+        "action_type": "1",
+        "polygon": "invalid source"
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-3-restamped": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 0.018000000000000682,
+    "max_actual_origin_age_s": 2.006999999999991,
+    "first_observed_contact_after_appearance_s": 0.8100000000000023,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": true,
+    "stop_during_fault": false,
+    "collision_state_changes_during_fault": [],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-3-fresh": {
+    "obstacle_window_message_count": 10,
+    "window_rate_hz": 5.0,
+    "max_advertised_age_s": 0.009000000000000341,
+    "max_actual_origin_age_s": 0.009000000000000341,
+    "first_observed_contact_after_appearance_s": null,
+    "contact_observed_during_fault": false,
+    "contact_observed_after_restoration": false,
+    "stop_during_fault": false,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "28.047",
+        "action_type": "3",
+        "polygon": "FootprintApproach"
+      },
+      {
+        "t": "28.407",
+        "action_type": "0",
+        "polygon": ""
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.15335763444403527,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  },
+  "block-3-missing": {
+    "obstacle_window_message_count": 0,
+    "window_rate_hz": 0.0,
+    "max_advertised_age_s": null,
+    "max_actual_origin_age_s": null,
+    "first_observed_contact_after_appearance_s": 0.7980000000000018,
+    "contact_observed_during_fault": true,
+    "contact_observed_after_restoration": true,
+    "stop_during_fault": true,
+    "collision_state_changes_during_fault": [
+      {
+        "t": "30.417",
+        "action_type": "1",
+        "polygon": "invalid source"
+      }
+    ],
+    "sampled_envelope_clearance_during_fault_m": 0.0,
+    "note": "Event counts are contact messages, not distinct collisions. A stop anywhere after appearance may be a later recovery/goal stop; only stop_during_fault is window-specific."
+  }
+}

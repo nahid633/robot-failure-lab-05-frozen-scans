@@ -1,0 +1,5 @@
+[INFO] [1792495274.999358721] [failure_lab_05_instrumentation_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot3_waffle/pose (gz.msgs.Pose_V) -> /model/turtlebot3_waffle/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[INFO] [1792495275.002552891] [failure_lab_05_instrumentation_bridge]: Creating GZ->ROS Bridge: [/model/rfl05_obstacle/pose (gz.msgs.Pose_V) -> /model/rfl05_obstacle/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[INFO] [1792495275.002908882] [failure_lab_05_instrumentation_bridge]: Creating GZ->ROS Bridge: [/rfl05/contacts (gz.msgs.Contacts) -> /rfl05/contacts (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[INFO] [1792495275.004509190] [failure_lab_05_instrumentation_bridge]: Creating ROS->GZ service bridge [/world/default/set_pose (ros_gz_interfaces/srv/SetEntityPose -> /)]
+[INFO] [1792495352.691981559] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "focused_tests": 10,
+  "focused_tests_passed": true,
+  "tests": "Actual pre-main unittest run, including CDR canonical-field round-trip stability; measurement code unchanged afterward.",
+  "python_syntax_passed_before_execution": true,
+  "main_outcomes": 12,
+  "all_main_evidence_checks_passed": true,
+  "runtime_configuration_identical": true,
+  "frozen_source_and_input_hashes_match": true,
+  "visual_review": [
+    "comparison.png",
+    "first-block-timeline.png",
+    "qa-frame-active.png",
+    "qa-frame-middle.png",
+    "qa-frame-last.png"
+  ],
+  "animation_frames": 89,
+  "rendering_corrections": [
+    "fresh-control reference-window caption",
+    "line breaks across missing-message gaps",
+    "labels for overlapping condition results"
+  ],
+  "render_attempt_notes": [
+    "Initial postprocessor replaced ROS PYTHONPATH; corrected by preserving it before successful validation/rendering.",
+    "Initial frame extraction requested frame 99; GIF combines identical frames. Revised extraction uses actual frame count."
+  ],
+  "source_unchanged": true,
+  "measurement_or_outcome_retries": false,
+  "scope": "Independent world geometry and contact events, one simulated route; fresh-machine reproduction unverified."
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "run.py",
+    "/tmp/robot-failure-lab-05-main-20261020",
+    "--verification-root",
+    "/tmp/robot-failure-lab-05-verification-v3-20261020",
+    "--calibration-root",
+    "/tmp/robot-failure-lab-05-contact-v4-20261020",
+    "--domain",
+    "50",
+    "--resume-infrastructure"
+  ],
+  "preserved_trials": [
+    "block-1-fresh",
+    "block-1-missing",
+    "block-1-frozen",
+    "block-1-restamped",
+    "block-2-missing"
+  ],
+  "reason": "Continue pre-goal startup only; never retry completed outcomes."
+}

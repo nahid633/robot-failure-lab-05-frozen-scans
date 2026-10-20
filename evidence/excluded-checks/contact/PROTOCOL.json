@@ -1,0 +1,93 @@
+{
+  "experiment": "Robot Failure Lab 05",
+  "verification": false,
+  "calibration": true,
+  "schedule": [
+    {
+      "block": 0,
+      "condition": "fresh",
+      "seed": 100
+    }
+  ],
+  "domain_base": 120,
+  "domain_policy": "base + schedule_index*3 + attempt-1; distinct domain per startup",
+  "trigger": {
+    "min_goal_elapsed_s": 3.0,
+    "world_x_crossing": -1.3,
+    "world_y_band": [
+      0.25,
+      0.85
+    ],
+    "translation_min_mps": 0.05,
+    "sustained_s": 0.3
+  },
+  "obstacle": {
+    "center": [
+      -0.6,
+      0.55
+    ],
+    "size": [
+      0.3,
+      0.45,
+      0.6
+    ],
+    "parked": [
+      -8,
+      -8,
+      0.35
+    ],
+    "request_delay_s": 0.2,
+    "appearance_from": "Observed world pose, not request receipt"
+  },
+  "fault_duration_s": 2.0,
+  "post_fault_min_observation_s": 4.0,
+  "task_limit_sim_s": 60.0,
+  "task_limit_wall_s": 180.0,
+  "startup_limit_wall_s": 75,
+  "contact_calibration": "Separate excluded process deliberately places obstacle into robot; never used for main task outcomes.",
+  "controls": "Fresh AMCL branch in every condition; both costmaps and collision monitor share experimental branch. Same parameters, original goal, no external proximity guard or replacement goal.",
+  "primary": "Source age, actual payload origin, source invalidation, motion stop, sampled oriented conservative-envelope clearance, obstacle-specific contacts separately.",
+  "footprint": {
+    "bounds": [
+      -0.2,
+      0.08,
+      -0.16,
+      0.16
+    ],
+    "meaning": "Conservative model-aligned planar envelope around inspected SDF collision shapes; zero envelope clearance is not contact proof."
+  },
+  "secondary": "Original goal outcome; fixed 0.30m world-position requirement in result+1.0..1.5s.",
+  "interpretation": "Three repeats each on one route; random AMCL/MPPI and scheduling uncontrolled; frozen/restamped branch is a synthetic diagnostic fault. No general physical safety, Nav2 bug or Vektor claim.",
+  "command": [
+    "run.py",
+    "/tmp/robot-failure-lab-05-contact-20261020",
+    "--calibration",
+    "--domain",
+    "120"
+  ],
+  "source_sha256": {
+    "measured_robot.sdf.xacro": "f639bbf66b19c56cc5a668ba44e854e9355e88bb93f5fbb3f2af8689df921111",
+    "trial.py": "6aa1e91c64a09e8bc3715f4147db791870ad4c6e8d25679572bdcf2bf953894d",
+    "upstream_launch.txt": "cb65906827c9897100512d64ee1ac7537fe859e3fc29fcc96aec8119bd7bebf2",
+    "models.py": "0314435f00112cbe9017c2652a433d4db6c97ce60dbac7fac9c56d716c8f9d78",
+    "core.py": "e0bf22cb3c88cf0c51be86e4bbaee1349365336f0f9b0561abc2136cb8dcb1af",
+    "support.py": "1dd97ab7f19a646560bf13b6b671e329e1c5279e0ed204bd003b553443fb5da3",
+    "run.py": "4b75c1bf84f59d0385d56f6d9814429d9dd8cacd0035f8eded81bd212278a172",
+    "README.md": "9c592055a2789eb7eafc883ecb95bec6578d8500a6c72514fcd5ae3fcd78d2f3",
+    "seeded_launch.py": "6b4443dd2ba90821fb44bbae45ef42ab8d4df34aaefb97af4b8a810d1fc95aca",
+    "test_core.py": "d08bac849e6eea660d76a56e36f0aac88c14a73f88a90a52f3940bbbcc400afa",
+    "world.sdf.xacro": "294cca67114b60b10f7e98abde8846eb989677ac84626a56955682348b3f0d3b",
+    "validate.py": "33ce24bba87e38b1ab9d7ed67a7e7638f5794928a91c39b3ad74e2d51e85dc0b",
+    "upstream_world.sdf.xacro": "466ebfb9f3dc39c46829a01c405543091d428839c15697d80ddb8fab6dff7771",
+    "upstream_robot.sdf.xacro": "133ebbe76997b98e43dbe03aea5a77dd6bd4117a3100343d5857b63cd3128a83"
+  },
+  "input_sha256": {
+    "tb3_sandbox.yaml": "2a284eba0a3aa4a904bce71734c56a543e979899f1cf34daad6e8215e608b438",
+    "tb3_sandbox.pgm": "0103b9dfaa3b79592af71cc35d64f69cfbd3565d173160820ad8ef56cd27b3fc",
+    "upstream-params.yaml": "26e4361b02dbc68c17296147167989c75ff7e3348481d2e4652b6f79e9082069",
+    "params.yaml": "78e1858fda7d253ef2bd044f1a2ee518ac05dde65241384f62a522f3cf956259",
+    "packages.txt": "bd4dafa0a987a4021ad1d16e6f85b415bbcd7d8a19e8a8ab0b1b08bb403ce5ff"
+  },
+  "verification_root": null,
+  "calibration_root": null
+}

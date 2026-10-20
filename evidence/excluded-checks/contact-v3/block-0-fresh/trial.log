@@ -1,0 +1,124 @@
+[INFO] [1792493127.352412593] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493128.365186240] [basic_navigator]: amcl/get_state service not available, waiting...
+[INFO] [1792493129.367276653] [basic_navigator]: amcl/get_state service not available, waiting...
+[INFO] [1792493132.371608502] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.371994457] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.372358899] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.372788198] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.373067501] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.374366255] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.374674775] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.374939811] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.375250541] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.375837908] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.376130547] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.377339439] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.378015075] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.378307215] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.378628638] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.380398217] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.380706228] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.381075544] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.383747725] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.384024688] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.384389573] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.386623559] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.386909935] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.387232322] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.390706528] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.391128851] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.392419805] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.393033021] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.393324424] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.393634894] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.395467405] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.395749611] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.396067090] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.398491690] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.398782454] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.399104320] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.401713171] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.401999786] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.402322519] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.404470773] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.404755524] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.405184033] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.407906383] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.408240859] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.408684123] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.410912965] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.411192928] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.411551195] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.413461593] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.413741242] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.414078828] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.416479973] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.416759535] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.417139912] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.419604170] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.419900459] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.420218740] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.422400448] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.422712077] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.423167572] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.426585860] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.426872530] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.427193237] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.428715914] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.428990027] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.429302956] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.431424105] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.431696160] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.432008569] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.434474496] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.434891803] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.435298971] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.437611911] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.437914635] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.438363684] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.440682344] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.440984873] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.441328049] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.443507058] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.443856993] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.444193354] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.446490771] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.446797178] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.447119218] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.449493020] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.449844364] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.450167931] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.452670443] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.452968812] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.453427015] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.455724052] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.456003798] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.456318992] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.459041062] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.459440147] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.459936407] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.464678485] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.465230038] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.465694264] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.466685994] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.470538694] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.471110354] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.471901679] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.472334867] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.473527618] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.474394061] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.474940164] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.475593300] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493132.477547205] [basic_navigator]: Setting initial pose
+[INFO] [1792493132.477948934] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792493132.478386316] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792493138.485675797] [basic_navigator]: Nav2 is ready for use!
+Traceback (most recent call last):
+  File "/tmp/robot-failure-lab-05-contact-v3-20261020/source/trial.py", line 241, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/tmp/robot-failure-lab-05-contact-v3-20261020/source/trial.py", line 190, in main
+    assert any(c['robot_obstacle_pairs'] for c in o.contacts),'No obstacle-specific positive contact'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: No obstacle-specific positive contact
+terminate called without an active exception

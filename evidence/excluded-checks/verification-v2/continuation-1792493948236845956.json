@@ -1,0 +1,14 @@
+{
+  "command": [
+    "run.py",
+    "/tmp/robot-failure-lab-05-verification-v2-20261020",
+    "--verification",
+    "--domain",
+    "140",
+    "--resume-infrastructure"
+  ],
+  "preserved_trials": [
+    "block-0-fresh-attempt-2"
+  ],
+  "reason": "Continue pre-goal startup only; never retry completed outcomes."
+}

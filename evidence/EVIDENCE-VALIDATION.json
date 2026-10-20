@@ -1,0 +1,343 @@
+{
+  "passed": true,
+  "trials": {
+    "block-1-fresh": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1059,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1059,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1059,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 191,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 10,
+      "cached_origin": 137,
+      "contact_messages": 0,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-1-missing": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1433,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1433,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1433,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 258,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 8,
+      "obstacle_window_messages": 0,
+      "cached_origin": 115,
+      "contact_messages": 2345,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-1-frozen": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1417,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1417,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1417,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 255,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 10,
+      "cached_origin": 109,
+      "contact_messages": 2340,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-1-restamped": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1443,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1443,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1443,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 260,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 10,
+      "cached_origin": 98,
+      "contact_messages": 532,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-2-missing": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1452,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1452,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1452,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 261,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 0,
+      "cached_origin": 105,
+      "contact_messages": 2376,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-2-frozen-attempt-2": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1381,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1381,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1381,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 248,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 10,
+      "cached_origin": 115,
+      "contact_messages": 6259,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-2-restamped": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1442,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1442,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1442,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 259,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 8,
+      "obstacle_window_messages": 10,
+      "cached_origin": 104,
+      "contact_messages": 2766,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-2-fresh": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1286,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1286,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1286,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 231,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 10,
+      "cached_origin": 133,
+      "contact_messages": 0,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-3-frozen": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1446,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1446,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1446,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 261,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 10,
+      "cached_origin": 98,
+      "contact_messages": 159,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-3-restamped": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 337,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 337,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 337,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 61,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 10,
+      "cached_origin": 302,
+      "contact_messages": 2605,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-3-fresh": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 741,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 741,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 741,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 134,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 9,
+      "obstacle_window_messages": 10,
+      "cached_origin": 105,
+      "contact_messages": 0,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    },
+    "block-3-missing": {
+      "passed": true,
+      "stream_coverage": {
+        "world": {
+          "samples": 1443,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 1443,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 1443,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 260,
+          "max_gap_s": 0.20100000000000762
+        }
+      },
+      "upstream_obstacle_hit_scans": 8,
+      "obstacle_window_messages": 0,
+      "cached_origin": 114,
+      "contact_messages": 2330,
+      "cancellation_ack_missing": false,
+      "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+      "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+    }
+  },
+  "runtime_parameters_identical": true,
+  "source_and_input_hashes_match": true
+}

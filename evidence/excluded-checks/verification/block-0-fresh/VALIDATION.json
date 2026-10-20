@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "stream_coverage": {
+    "world": {
+      "samples": 769,
+      "max_gap_s": 0.036000000000001364
+    },
+    "odom": {
+      "samples": 769,
+      "max_gap_s": 0.036000000000001364
+    },
+    "obstacle": {
+      "samples": 769,
+      "max_gap_s": 0.036000000000001364
+    },
+    "scans": {
+      "samples": 139,
+      "max_gap_s": 0.2010000000000005
+    }
+  },
+  "upstream_obstacle_hit_scans": 9,
+  "obstacle_window_messages": 10,
+  "cached_origin": 128,
+  "contact_messages": 0,
+  "contact_coverage": "Positive calibration separately required; observed events only, absence alone is not proof of zero contact.",
+  "scope": "Conservative oriented-envelope clearance at sampled world poses; zero envelope clearance is not itself a physical contact."
+}
